@@ -1,0 +1,7 @@
+{
+  "name": "CanvasCameraIonicDemo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
