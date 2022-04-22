@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'CanvasCameraIonicDemo',
+  appId: 'com.virtuoworks.canvascameracapacitordemo',
+  appName: 'CanvasCameraCapacitorDemo',
   webDir: 'www',
   bundledWebRuntime: false
 };

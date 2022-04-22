@@ -1,20 +1,26 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      CanvasCamera Capacitor Demo
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <canvas class="raster" #fullsize></canvas>
+    <canvas class="raster" #thumbnail></canvas>
   </div>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button (click)="play()">Play</ion-button>
+      <ion-button (click)="flip()">Flip</ion-button>
+      <ion-button (click)="switch()">Switch</ion-button>
+      <ion-button (click)="torch()">Torch</ion-button>
+      <ion-button (click)="stop()">Stop</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
